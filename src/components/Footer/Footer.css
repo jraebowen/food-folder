@@ -1,0 +1,47 @@
+.footer {
+  padding: 0 50px;
+  height: 80px;
+}
+
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__copyright {
+  font-size: 16px;
+  padding: 32px 0 26px 0;
+  margin: 0;
+  max-width: 200px;
+}
+
+.footer__links {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.footer__link-github {
+  height: 24px;
+  width: 24px;
+  margin: 0 24px 0 0;
+  padding: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.footer__link-github:hover {
+  cursor: pointer;
+  opacity: 70%;
+}
+.footer__link-linkedin {
+  height: 24px;
+  width: 24px;
+  padding: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.footer__link-linkedin:hover {
+  cursor: pointer;
+  opacity: 70%;
+}

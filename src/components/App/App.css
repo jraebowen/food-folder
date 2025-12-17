@@ -1,6 +1,9 @@
 .page {
-  font-family: "AnonymousPro Bold", Arial, Helvetica, sans-serif;
+  font-family: "AnonymousPro Regular", Arial, Helvetica, sans-serif;
   font-size: 18px;
   background-color: rgba(169, 211, 85, 0.11);
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
