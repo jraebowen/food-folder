@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "AnonymousPro Regular";
+  src: url(./AnonymousPro-Regular.ttf) format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "AnonymousPro Bold";
+  src: url(./AnonymousPro-Bold.ttf) format("truetype");
+  font-weight: 700;
+}

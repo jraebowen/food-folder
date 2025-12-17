@@ -5,7 +5,11 @@ import "./App.css";
 import Navigation from "../Navigation/Navigation";
 
 function App() {
-  return <div className="page"></div>;
+  return (
+    <div className="page">
+      <Navigation></Navigation>
+    </div>
+  );
 }
 
 export default App;

@@ -1,0 +1,57 @@
+.nav {
+  padding: 20px 50px;
+}
+
+.nav__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__logo {
+  height: auto;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  transition: opacity 0.5s ease-in-out;
+  display: flex;
+  justify-content: center;
+}
+
+.nav__logo:hover {
+  cursor: pointer;
+  opacity: 70%;
+}
+
+.nav__logo-image {
+  width: 150px;
+  object-fit: contain;
+}
+
+.nav__links {
+  display: flex;
+  align-items: center;
+  gap: 42px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.nav__item {
+  list-style-type: none;
+}
+
+.nav__item-button {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 400;
+  background: transparent;
+  border: none;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.nav__item-button:hover {
+  cursor: pointer;
+  opacity: 70%;
+}
