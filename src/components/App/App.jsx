@@ -11,6 +11,16 @@ import Recipes from "../Recipes/Recipes";
 import MealPlan from "../MealPlan/MealPlan";
 import Footer from "../Footer/Footer";
 
+//api import
+import { importFromGoogle } from "../../utils/googleApi.js";
+import {
+  getAllRecipes,
+  getSingleRecipe,
+  updateRecipe,
+  deleteRecipe,
+  createRecipe,
+} from "../../utils/api.js";
+
 function App() {
   return (
     <div className="page">
