@@ -1,4 +1,4 @@
-import checkResponse from "./api.js";
+import { checkResponse } from "./api.js";
 const baseUrl = "http://localhost:3005";
 
 export const importFromGoogle = async (url) => {
